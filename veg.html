@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Genius</title>
+  <style>
+    /* CSS styles */
+   /* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/* Set up default font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+}
+
+/* Center content vertically and horizontally */
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button styles */
+.button-container {
+  text-align: center;
+  margin-top: 20px; /* Add some space between buttons and top */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50; /* Default button color for veg */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+/* Non-veg button style */
+.button.non-veg {
+  background-color: #f44336; /* Red color for non-veg button */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  background-color: #45a049; /* Light green hover effect for veg button */
+}
+
+.button.non-veg:hover {
+  background-color: #d32f2f; /* Dark red hover effect for non-veg button */
+}
+
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button class="button veg"><a href="recipe.html" style="
+      height: 38px;
+      width: 114px;
+  ">VEG</a></button>
+    <button class="button non-veg"><a href="recipe.html">NON-VEG</a></button>
+  </div>
+</body>
+</html>

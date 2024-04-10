@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signin</title>
+    <link rel="stylesheet" href="signin.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form action="test.php" method="post">
+            <h2>Signin-form</h2>
+            <div class="input-field">
+                <input type="text" name="email" required />
+                <label for="">Enter email</label>
+
+            </div>
+            <div class="input-field">
+                <input type="text" name="Name" required />
+                <label for="">Enter Name</label>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" required/>
+                <label for="password">Enter password</label>
+            </div>
+            <div class="input-field">
+                <input type="password" name="cpassword" required />
+                <label for="cpassword">Confirm password</label>
+            </div>
+            <div class="forget">
+                
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit">Sign In</button>
+            
+        </form>
+    </div>
+
+</body>
+
+</html>
